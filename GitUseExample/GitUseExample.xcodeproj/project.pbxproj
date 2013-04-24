@@ -18,6 +18,7 @@
 		66FA5F721727880000309ED5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66FA5F711727880000309ED5 /* Default-568h@2x.png */; };
 		66FA5F751727880000309ED5 /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FA5F741727880000309ED5 /* ADViewController.m */; };
 		66FA5F781727880000309ED5 /* ADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66FA5F761727880000309ED5 /* ADViewController.xib */; };
+		66FA5F8017278DA500309ED5 /* ADMapForIternerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FA5F7F17278DA500309ED5 /* ADMapForIternerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		66FA5F731727880000309ED5 /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
 		66FA5F741727880000309ED5 /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
 		66FA5F771727880000309ED5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADViewController.xib; sourceTree = "<group>"; };
+		66FA5F7E17278DA500309ED5 /* ADMapForIternerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMapForIternerary.h; sourceTree = "<group>"; };
+		66FA5F7F17278DA500309ED5 /* ADMapForIternerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMapForIternerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		66FA5F611727880000309ED5 /* GitUseExample */ = {
 			isa = PBXGroup;
 			children = (
+				66FA5F7E17278DA500309ED5 /* ADMapForIternerary.h */,
+				66FA5F7F17278DA500309ED5 /* ADMapForIternerary.m */,
 				66FA5F6A1727880000309ED5 /* ADAppDelegate.h */,
 				66FA5F6B1727880000309ED5 /* ADAppDelegate.m */,
 				66FA5F731727880000309ED5 /* ADViewController.h */,
@@ -177,6 +182,7 @@
 				66FA5F681727880000309ED5 /* main.m in Sources */,
 				66FA5F6C1727880000309ED5 /* ADAppDelegate.m in Sources */,
 				66FA5F751727880000309ED5 /* ADViewController.m in Sources */,
+				66FA5F8017278DA500309ED5 /* ADMapForIternerary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				66FA5F7D1727880000309ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
