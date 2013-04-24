@@ -10,4 +10,12 @@
 
 @implementation ADMapForIternerary
 
+- (void)fakeMethod
+{
+    //this is a fake method just to make the discard action clear for you
+    
+    NSLog(@" Discarding changes allow you to get the latest revision you have worked on it.");
+}
+
+
 @end

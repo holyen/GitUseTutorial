@@ -29,4 +29,10 @@
 - (IBAction)clickTheButton:(id)sender {
     NSLog(@"This is a Git tutorial");
 }
+
+- (void)test1
+{
+    
+}
+
 @end

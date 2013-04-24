@@ -10,4 +10,6 @@
 
 @interface ADMapForIternerary : NSObject
 
+- (void)fakeMethod;
+
 @end
